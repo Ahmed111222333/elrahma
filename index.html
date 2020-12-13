@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/datatablefinal.css" />
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="login">
+        <div class="container">
+            <div class="text-center">
+                <h1>ورشة الرحمة</h1>
+                <div class="row">
+                        <form action="" class="form-control login-form">
+                            <div class="text-center">
+                                <h2 class="text-center heading-login">تسجيل الدخول</h2>
+                                <label for="username">اسم المستخدم</label>
+                                <input type="text" class="form-control" id="validationDefault01" required id ="user">  
+                                <label for="password">كلمة المرور</label>
+                                <input type="password" class="txt form-control d-inline" required id = "pass">
+                                <i class="fas fa-eye show_hide"></i>
+                                <div class="log mt-4">
+                                    <!--<a href="import.html">دخول</a>-->
+                                    <button type="submit" id="log">دخول</button>
+                                </div>
+                            </div>
+                        </form>        
+                    </div>
+        </div>
+    </div>
+    </div>  
+        <script src="js/jquery.js" crossorigin="anonymous"></script>
+    <script src="js/popper.min.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="js/dataTables.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/dataTables.buttons.min.js"></script>
+    <script src="js/buttons.flash.min.js"></script>
+    <script src="js/jszip.min.js"></script>
+    <script src="js/pdfmake.min.js"></script>
+    <script src="js/vfs_fonts.js"></script>
+    <script src="js/buttons.html5.min.js"></script>
+    <script src="js/buttons.print.min.js"></script>
+    <script src="js/buttons.colVis.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+            var login =document.getElementById("log"),
+                pass= document.getElementById("pass"),
+                user = document.getElementById("user");
+    login.onclick=function(){
+        "use strict"
+        if(pass==="feeding" && user==="feeding"){
+            window.open ("file:///F:/Elrahma/sections.html");
+        }else{
+            window.open ("file:///F:/Elrahma/import.html"); 
+        }
+    }
+    </script>
+</body>
+</html>

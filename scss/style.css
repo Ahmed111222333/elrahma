@@ -1,0 +1,247 @@
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #000;
+}
+
+.row {
+  text-align: right;
+}
+
+.login {
+  background-color: #C3C3C3;
+  padding: 50px 0;
+}
+
+.login h1 {
+  color: #000;
+  padding-bottom: 40px;
+}
+
+.login .login-form {
+  background-color: #C4C4C4;
+  border: none;
+  -webkit-box-shadow: 0px 0px 15px #000;
+          box-shadow: 0px 0px 15px #000;
+  padding: 15px 25px;
+  height: 27rem;
+  border-radius: 10%;
+  width: 25rem;
+  margin: auto;
+}
+
+.login .login-form h2 {
+  color: #000;
+  background-color: #D1D1D1;
+  margin: auto;
+  padding: 18px 18px;
+  width: 17rem;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 1rem;
+  margin-top: 25px;
+}
+
+.login .login-form label {
+  color: #000;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.login .login-form input {
+  display: block;
+  border-radius: 20px;
+  padding: 10px 0px;
+  background-color: #B1B0B0;
+  border: none;
+}
+
+.login .input-group-text {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.login .input-group {
+  margin-bottom: 2rem;
+}
+
+.login a {
+  color: #000;
+  background-color: #dcdcdc;
+  padding: 10px 50px;
+  width: 100%;
+  border-radius: 65px;
+  font-weight: 700;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.import {
+  background-color: #C3C3C3;
+  padding: 2rem 0;
+}
+
+.import header {
+  padding-top: 1rem;
+}
+
+.import header h1 {
+  display: inline;
+  margin-left: 5rem;
+  background-color: #dcdcdc;
+  padding: 2px 40px;
+  border-radius: 40px;
+}
+
+.import header .links {
+  display: inline;
+}
+
+.import header a {
+  background-color: #dcdcdc;
+  padding: 11px 22px;
+  border-radius: 21px;
+  color: #000;
+  border: 1px solid #000;
+  font-weight: 700;
+}
+
+.import header .active {
+  background-color: #B1B0B0;
+}
+
+@media (max-width: 1133px) {
+  .import .links, .import .links2 {
+    display: block !important;
+    text-align: center;
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 763px) {
+  .import .links a, .import .links2 a {
+    display: block !important;
+    width: 50%;
+    margin: 1rem auto;
+  }
+}
+
+.import .table {
+  margin-top: 2rem;
+}
+
+.import .table .dataTables_filter input {
+  width: 15rem;
+  border-radius: 20px;
+}
+
+.import .table h2 {
+  margin-bottom: 3rem;
+}
+
+.import .table .late-pay-table {
+  background-color: #C4C4C4;
+}
+
+.import .table tbody tr td:nth-child(1) {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.import .table tbody tr td input {
+  border-radius: 20px;
+  background-color: #C3C3C3;
+  padding: 8px;
+}
+
+.import .table tbody tr td select {
+  border-radius: 20px;
+  background-color: #C3C3C3;
+  width: 100px;
+  padding: 8px;
+}
+
+.import .table tbody tr td a {
+  font-weight: 500;
+}
+
+.import .dataTables_wrapper {
+  background-color: #dcdcdc !important;
+  padding: 34px 0px 0 0;
+  border-radius: 40px;
+}
+
+.import table.dataTable.stripe tbody tr.odd, .import table.dataTable.display tbody tr.odd, .import table.dataTable tbody tr {
+  background-color: transparent;
+}
+
+.import table.dataTable.stripe tbody tr.odd:hover, .import table.dataTable.display tbody tr.odd:hover, .import table.dataTable tbody tr:hover {
+  background-color: #fff;
+}
+
+.import .dt-buttons {
+  padding: 0 15px;
+}
+
+.import label {
+  margin: 0 30px;
+}
+
+.import .add {
+  width: 12rem;
+  font-size: 25px;
+  border-radius: 30px;
+  margin-top: 2rem;
+  font-weight: 900;
+}
+
+.import .modal-title {
+  margin: 0 6rem;
+  padding: 8px 50px;
+  border-radius: 20px;
+  background-color: #C3C3C3;
+}
+
+.import .modal-body label {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.import .modal-body input {
+  border-radius: 20px;
+  background-color: #C3C3C3;
+  padding: 8px;
+}
+
+.import .modal-body select {
+  border-radius: 20px;
+  background-color: #C3C3C3;
+  padding: 8px;
+}
+
+.import .modal-footer a {
+  margin: auto;
+  padding: 6px 65px;
+  border-radius: 20px;
+  background-color: #C3C3C3;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.import .modal-content {
+  background-color: #dcdcdc;
+}
+
+.import .links2 {
+  /* margin-top: 3rem; */
+  margin: 3rem auto;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,282 @@
+$mainColor : #C3C3C3;
+$secondColor:#C4C4C4;
+$thirdColor:#dcdcdc;
+$forthcolor: #B1B0B0;
+$fifthcolor:#E3E3E3;
+$mainfont : 'Tajawal', sans-serif;
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free" !important;
+}
+.dataTables_scrollBody{
+    border: none !important;
+}
+input{
+    border: none;
+}
+*{
+    font-family: $mainfont !important;
+    font-weight: 700 !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+a:hover{
+    color: #000;
+}
+.row{
+    text-align: right;
+}
+.login{
+    background-color:$mainColor;
+    padding: 50px 0;
+    height: 100%;
+    h1{
+        color: #000;
+        padding-bottom: 40px;
+    }
+    button{
+        color: #000;
+        background-color: #dcdcdc;
+        padding: 10px 50px;
+        width: 100%;
+        border-radius: 65px;
+        font-weight: 700;
+        font-size: 25px;
+        text-decoration: none;
+        border: none;
+        width: 50%;
+    }
+    .login-form{
+        background-color: $secondColor;
+        border: none;
+        box-shadow: 0px 0px 15px #000;
+        padding: 15px 25px;
+        height: 27rem;
+        border-radius: 10%;
+        width: 25rem;
+        margin: auto;
+        h2{
+            color: #000;
+            background-color: #D1D1D1;
+            margin: auto;
+            padding: 18px 18px;
+            width: 17rem;
+            border-radius: 40px;
+            font-weight: 700;
+            font-size: 25px;
+            margin-bottom: 1rem;
+            margin-top: 25px;
+        }
+                    label{
+                color: #000;
+                font-weight: 700;
+                font-size: 20px;
+                margin-top: 1rem;
+                margin-bottom: 1.2rem;
+            }
+            input{
+                display: block;
+                border-radius: 20px;
+                padding: 10px 0px;
+                background-color: $forthcolor;
+                border: none;
+            }
+    }
+    .input-group-text{
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+    }
+    .input-group{
+        margin-bottom: 2rem;
+    }
+    a{
+        color: #000;
+        background-color: $thirdColor;
+        padding: 10px 50px;
+        width: 100%;
+        border-radius: 65px;
+        font-weight: 700;
+        font-size: 25px;
+        text-decoration: none;
+        }    
+        .show_hide{
+    margin-right: -2rem;
+    display: inline;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+        }
+}
+header{
+    a{
+        border: 1px solid #707070 !important;
+        margin-left: -.2%;
+    }
+}
+.import{
+    background-color: $mainColor;
+    padding: 2rem 0;
+    header{
+        padding-top: 1rem;
+        h1{
+                display: inline;
+                margin-left: 5rem;
+                background-color: $thirdColor;
+                padding: 2px 20px;
+                border-radius: 40px;
+            }
+            .links{
+                display: inline;
+            }
+            a{
+                background-color: $thirdColor;
+                padding: 11px 22px;
+                border-radius: 21px;
+                color: #000;
+                border: 1px solid #000;
+                font-weight: 700;
+            }
+            .active{
+                background-color: $forthcolor;
+            }
+        }
+        @media(max-width:1133px){
+            .links,.links2{
+                display: block !important;
+                text-align: center;
+                margin-top: 3rem;
+            }
+        }
+        @media(max-width:763px){
+            .links a ,.links2 a{
+                display: block !important;
+                width: 50%;
+                margin: 1rem auto;
+                }   
+        }
+        .table{
+            margin-top: 2rem;
+            .dataTables_filter{
+            input{
+                width: 15rem;
+                border-radius: 20px;
+            }
+        }
+        h2{
+            margin-bottom: 3rem;
+        }
+        .late-pay-table{
+            background-color: $secondColor;
+        }
+        tbody{
+        tr{ 
+        td {
+            &:nth-child(1){
+            font-weight: 700;
+            font-size: 20px;
+            }        
+        input{
+            border-radius: 20px;
+            background-color: $mainColor;
+            padding:8px;
+            width: 100%;
+        }
+        select{
+            border-radius: 20px;
+            background-color: $mainColor;
+            width: 80%;
+            padding:8px
+        }
+        a{
+            font-weight: 500;
+        }
+    }
+    }
+    }
+    }    
+    .dataTables_wrapper{
+        background-color: $thirdColor !important;
+        padding: 34px 0px 0 0 ;
+        border-radius: 40px;
+    }
+    table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd ,table.dataTable tbody tr{
+        background-color: transparent;
+        &:hover{
+            background-color: #fff;
+        }
+    }
+    .dt-buttons{
+        padding: 0 15px;
+    }
+    label{
+        margin: 0 30px;
+    }
+    .add{
+
+        width: 12rem;
+        font-size: 25px;
+        border-radius: 30px;
+        margin-top: 2rem;
+        font-weight: 900;
+
+    }
+    .modal-title{
+        margin: auto;
+        padding: 8px 50px;
+        border-radius: 20px;
+        width: 100%;
+        display: block;
+        background-color: $fifthcolor;
+    }
+    .modal-body{
+        label{
+            font-weight: 500;
+                font-size: 20px;
+                margin-bottom: 1rem;
+        }
+        input{
+            border-radius: 20px;
+    background-color: $mainColor;
+    padding: 8px;
+        }
+        select{
+            border-radius: 20px;
+    background-color: $mainColor;
+    padding: 8px;
+        }
+        .h1{
+            background-color: #C3C3C3;
+            font-size: 9rem;
+            font-weight: 700 !important;
+            width: 12rem;
+            margin-right: 7rem;
+            border-radius: 50%;
+            }
+            tbody{
+                input{
+                    width: 7rem;
+                }
+            }
+    }
+    .modal-footer{
+        a{
+            margin: auto;
+            padding: 6px 65px;
+            border-radius: 20px;
+            background-color: $fifthcolor;
+            font-size: 20px;
+    font-weight: 700;
+        }
+    }
+    .modal-content{
+        background-color: $thirdColor;
+    }
+    .links2{
+    /* margin-top: 3rem; */
+    margin: 3rem auto;
+    text-align: center;
+    }
+        }
