@@ -26,18 +26,7 @@ var table = $('#example').DataTable((_$$DataTable = {
     autoPrint: true,
     orientation: "landscape"
   }
-},
-/*
-{
-    extend: "New",
-      exportOptions: {
-          columns: ":visible",
-          autoPrint: true,
-          orientation: "landscape",
-      },
-},
-*/
-{
+}, {
   extend: 'csvHtml5',
   text: '<i class="fas fa-file-csv"></i>',
   titleAttr: 'CSV'
