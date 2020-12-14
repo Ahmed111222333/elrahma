@@ -1,3 +1,20 @@
+.fa, .far, .fas {
+  font-family: "Font Awesome 5 Free" !important;
+}
+
+.dataTables_scrollBody {
+  border: none !important;
+}
+
+input {
+  border: none;
+}
+
+* {
+  font-family: "Tajawal", sans-serif !important;
+  font-weight: 700 !important;
+}
+
 a {
   text-decoration: none !important;
 }
@@ -13,11 +30,25 @@ a:hover {
 .login {
   background-color: #C3C3C3;
   padding: 50px 0;
+  height: 100%;
 }
 
 .login h1 {
   color: #000;
   padding-bottom: 40px;
+}
+
+.login button {
+  color: #000;
+  background-color: #dcdcdc;
+  padding: 10px 50px;
+  width: 100%;
+  border-radius: 65px;
+  font-weight: 700;
+  font-size: 25px;
+  text-decoration: none;
+  border: none;
+  width: 50%;
 }
 
 .login .login-form {
@@ -82,6 +113,20 @@ a:hover {
   text-decoration: none;
 }
 
+.login .show_hide {
+  margin-right: -2rem;
+  display: inline;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+header a {
+  border: 1px solid #707070 !important;
+  margin-left: -.2%;
+}
+
 .import {
   background-color: #C3C3C3;
   padding: 2rem 0;
@@ -95,7 +140,7 @@ a:hover {
   display: inline;
   margin-left: 5rem;
   background-color: #dcdcdc;
-  padding: 2px 40px;
+  padding: 2px 20px;
   border-radius: 40px;
 }
 
@@ -158,12 +203,13 @@ a:hover {
   border-radius: 20px;
   background-color: #C3C3C3;
   padding: 8px;
+  width: 100%;
 }
 
 .import .table tbody tr td select {
   border-radius: 20px;
   background-color: #C3C3C3;
-  width: 100px;
+  width: 80%;
   padding: 8px;
 }
 
@@ -202,10 +248,12 @@ a:hover {
 }
 
 .import .modal-title {
-  margin: 0 6rem;
+  margin: auto;
   padding: 8px 50px;
   border-radius: 20px;
-  background-color: #C3C3C3;
+  width: 100%;
+  display: block;
+  background-color: #E3E3E3;
 }
 
 .import .modal-body label {
@@ -226,11 +274,24 @@ a:hover {
   padding: 8px;
 }
 
+.import .modal-body .h1 {
+  background-color: #C3C3C3;
+  font-size: 9rem;
+  font-weight: 700 !important;
+  width: 12rem;
+  margin-right: 7rem;
+  border-radius: 50%;
+}
+
+.import .modal-body tbody input {
+  width: 7rem;
+}
+
 .import .modal-footer a {
   margin: auto;
   padding: 6px 65px;
   border-radius: 20px;
-  background-color: #C3C3C3;
+  background-color: #E3E3E3;
   font-size: 20px;
   font-weight: 700;
 }
