@@ -281,3 +281,20 @@ header{
     text-align: center;
     }
         }
+        .dt-button{
+            background: transparent !important;
+            border: none !important;
+            width: 4% !important;
+            margin: 0;
+            padding: 0 !important;
+            img{
+                width: 100% !important;
+            }
+        }
+        .dt-buttons{
+            float: left;
+            position: relative;
+            margin-left: 2%;
+            text-align: left;
+            width: 60%;
+        }

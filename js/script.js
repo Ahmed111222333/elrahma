@@ -33,37 +33,33 @@ var table = $('#example').DataTable({
                       autoPrint: true,
                       orientation: "landscape",
                   },
-        },
+                  text:      '<img src="../img/print.png" class="img-fluid">',
+                },
 {
         extend:    'csvHtml5',
-        text:      '<i class="fas fa-file-csv"></i>',
+        text:      '<img src="../img/csv.ico" class="img-fluid">',
         titleAttr: 'CSV'
     },
     {
         extend:    'pdfHtml5',
-        text:      '<i class="fas fa-file-pdf"></i>',
+        text:      '<img src="../img/pdf.png" class="img-fluid">',
         titleAttr: 'PDF'
     },
     {
         extend:    'excelHtml5',
-        text:      '<i class="fas fa-file-excel"></i>',
+        text:      '<img src="../img/excel.png" class="img-fluid">',
         titleAttr: 'Excel'
     },
     {
         extend:    'copyHtml5',
-        text:      '<i class="fas fa-copy"></i>',
+        text:      '<img src="../img/copy.ico" class="img-fluid">',
         titleAttr: 'Copy'
-    },
-    "colvis",
+    }
 ],
     "language": {
     search: '<strong style="display:none">البحث</strong>',
     searchPlaceholder: 'بحث',
     },
-    columnDefs: [{
-        targets: [-1],
-        className: "hide_column"
-    }]
     });
     $('.delete-button').click(function() {
       selectedRow = $(this).closest('tr');

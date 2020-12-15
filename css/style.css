@@ -213,4 +213,20 @@ header a {
     margin: 3rem auto;
     text-align: center; }
 
+.dt-button {
+  background: transparent !important;
+  border: none !important;
+  width: 4% !important;
+  margin: 0;
+  padding: 0 !important; }
+  .dt-button img {
+    width: 100% !important; }
+
+.dt-buttons {
+  float: left;
+  position: relative;
+  margin-left: 2%;
+  text-align: left;
+  width: 60%; }
+
 /*# sourceMappingURL=style.css.map */

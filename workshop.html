@@ -63,7 +63,7 @@
                   </a>
                 </td>
                 <td>
-                  <a href="" style="color: #0e4c0e;">
+                  <a href="" style="color: #f00;">
                    حذف
                   </a>
                 </td>
@@ -85,7 +85,7 @@
                   </a>
                 </td>
                 <td>
-                  <a href="" style="color: #0e4c0e;">
+                  <a href="" style="color: #f00;">
                    حذف
                   </a>
                 </td>
@@ -107,7 +107,7 @@
                   </a>
                 </td>
                 <td>
-                  <a href="" style="color: #0e4c0e;">
+                  <a href="" style="color: #f00;">
                    حذف
                   </a>
                 </td>
@@ -129,7 +129,7 @@
                   </a>
                 </td>
                 <td>
-                  <a href="" style="color: #0e4c0e;">
+                  <a href="" style="color: #f00;">
                    حذف
                   </a>
                 </td>
@@ -151,7 +151,7 @@
                   </a>
                 </td>
                 <td>
-                  <a href="" style="color: #0e4c0e;">
+                  <a href="" style="color: #f00;">
                    حذف
                   </a>
                 </td>
@@ -173,7 +173,7 @@
                   </a>
                 </td>
                 <td>
-                  <a href="" style="color: #0e4c0e;">
+                  <a href="" style="color: #f00;">
                    حذف
                   </a>
                 </td>
@@ -195,7 +195,7 @@
                   </a>
                 </td>
                 <td>
-                  <a href="" style="color: #0e4c0e;">
+                  <a href="" style="color: #f00;">
                    حذف
                   </a>
                 </td>
@@ -217,7 +217,7 @@
                   </a>
                 </td>
                 <td>
-                  <a href="" style="color: #0e4c0e;">
+                  <a href="" style="color: #f00;">
                    حذف
                   </a>
                 </td>
@@ -308,5 +308,22 @@
     <script src="js/buttons.print.min.js"></script>
     <script src="js/buttons.colVis.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+                var editor = new $.fn.dataTable.Editor({
+      ajax: '#',
+      table: '#example',
+      fields: [
+        {
+          label: 'الاسم',
+          name: 'name'
+        },
+        {
+          label: 'القسم',
+          name: 'date'
+        }
+      ]
+    });
+
+    </script>
 </body>
 </html>
