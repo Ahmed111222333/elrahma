@@ -1,3 +1,4 @@
+$(document).ready(function() {
 var table = $('#example').DataTable({
     dom: "B<'row'<'col-sm-6 col-md-6'f><'ml-3'l>>rtip",
     dom: 'Bfrtip',
@@ -62,11 +63,14 @@ var table = $('#example').DataTable({
     },
     });
     $('.delete-button').click(function() {
-      selectedRow = $(this).closest('tr');
-      idSelectedRow = $(this).closest('tr').find(".hide_column").text();
-  
-});
-$(".show_hide").click(function(e){
+        selectedRow = $(this).closest('tr');
+        idSelectedRow = $(this).closest('tr').find(".hide_column").text();
+        console.log(idSelectedRow);
+        $('.confirm-delete').click(function() {
+          selectedRow.remove();
+        })
+    });
+    $(".show_hide").click(function(e){
     e.preventDefault();
     $(this).toggleClass("active");
     if($(this).hasClass("active")){
@@ -87,3 +91,17 @@ $( ".up" ).addClass( "d-block" ).removeClass("d-none");
 else{
 // window.open ("https://ahmed111222333.github.io/elrahma/import.html"); 
 }
+    //var mybutton = document.getElementById("b"),
+      //  myin=document.getElementById("in");
+      $("button#b").click(function(e){
+          e.preventDefault();
+        $(this).toggleClass("active");
+        if($(this).hasClass("active")){
+            $("input,select").prop("disabled", false);
+                $(this).text("تاكيد");
+          }else{
+            $("input,select").prop("disabled", true);
+            $(this).text("تعديل");
+          }
+        });
+})
