@@ -418,5 +418,23 @@
     <script src="js/buttons.print.min.js"></script>
     <script src="js/buttons.colVis.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+      var editor = new $.fn.dataTable.Editor({
+		ajax: '#',
+		table: '#example',
+		fields: [
+    {
+        label: 'اسم المنتج',
+				name: 'name'
+			},
+			{
+        label: 'القسم',
+				name: 'Type'
+			}
+		]
+	});
+
+    </script>
+
 </body>
 </html>
